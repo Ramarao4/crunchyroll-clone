@@ -1,0 +1,24 @@
+.header-section {
+  background-color: rgb(43, 43, 43);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  border: 2px solid white;
+  width: 600px;
+}
+
+.header-right {
+  border: 2px solid white;
+  width: 300px;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+}
+.crunchyroll-logo {
+  height: 80px;
+}
