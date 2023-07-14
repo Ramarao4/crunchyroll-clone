@@ -1,3 +1,9 @@
+div {
+  font-family: Lato;
+  font-size: 16px;
+  color: white;
+}
+
 .header-section {
   background-color: rgb(43, 43, 43);
   height: 60px;
@@ -8,6 +14,7 @@
 .header-left {
   border: 2px solid white;
   width: 600px;
+  display: flex;
 }
 
 .header-right {
@@ -17,8 +24,52 @@
 
 .icon-div {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
+
 .crunchyroll-logo {
-  height: 80px;
+  height: 175px;
+}
+
+.browse-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  padding: 0px 20px 0px 15px
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.manga-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.games-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.store-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.news-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0px 20px 0px 15px;
 }
