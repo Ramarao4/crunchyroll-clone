@@ -4,14 +4,17 @@ div {
   color: rgb(218, 218, 218);
 }
 
-.header-left div:hover,
-.header-right div:hover {
-  background-color: rgb(32, 32, 32);
-}
-
 .header-left div,
 .header-right div {
   cursor: pointer;
+
+  transition:
+    background-color 0.15s;
+}
+
+.header-left div:hover,
+.header-right div:hover {
+  background-color: rgb(32, 32, 32);
 }
 
 .header-section {

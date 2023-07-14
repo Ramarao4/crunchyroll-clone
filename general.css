@@ -16,13 +16,67 @@ p {
 .featured-section {
   background-color: rgb(255, 136, 0);
   width: 100%;
-  height: 715px;
+  height: 655px;
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 50px;
+}
+
+.forward-arrow-button,
+.back-arrow-button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.forward-arrow-button:hover,
+.back-arrow-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.forward-arrow,
+.back-arrow {
+  height: 25px;
 }
 
 .featured-anime {
   width: 400px;
+  cursor: pointer;
+}
+
+.black-background {
+  background-color: black;
+  height: 100%;
+}
+
+.side-scroll {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.side-scroll-bar {
+  height: 2px;
+  width: 47px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.side-scroll-bar:hover {
+  height: 4px;
+  border-radius: 0;
+}
+
+.side-scroll-bar-active {
+  height: 4px;
+  width: 47px;
+  background-color: gray;
   cursor: pointer;
 }
