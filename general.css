@@ -104,6 +104,13 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
+  row-gap: 40px;
+}
+
+@media (min-width: 1200px) {
+  .dragon-ball-episode-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .thumbnail-container {
@@ -129,6 +136,10 @@ p {
 .sub-dub {
   font-size: 14px;
   color: rgb(160, 160, 160);
+}
+
+.episode-container {
+  position: relative;
 }
 
 .episode-container-bottom-row {

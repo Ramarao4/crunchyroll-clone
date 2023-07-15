@@ -28,3 +28,85 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+.episode-overlay {
+  position: absolute;
+  background-color: rgb(28, 28, 36);
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  padding: 10px;
+  opacity: 0;
+  cursor: pointer;
+
+  transition:
+    all 0.15s;
+}
+
+.episode-overlay:hover {
+  opacity: 1;
+}
+
+.date-of-release {
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+}
+
+.calendar-icon {
+  height: 18px;
+  margin-top: 3px;
+}
+
+.episode-overlay .anime-genre,
+.episode-overlay .anime-name {
+  margin: 0;
+}
+
+.episode-overlay .anime-genre {
+  margin-bottom: 8px;
+}
+
+.episode-overlay .anime-name {
+  margin-bottom: 8px;
+}
+
+.date-of-release {
+  margin-bottom: 8px;
+}
+
+.episode-description-div {
+  height: 85px;
+  overflow: hidden;
+}
+
+@media (max-width: 550px) {
+  .episode-description-div {
+    height: 69px;
+  }
+}
+
+.episode-description {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.play-button {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(221, 144, 0);
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.play-icon {
+  margin-top: 2px;
+  height: 22px;
+}
