@@ -14,7 +14,7 @@ p {
 }
 
 .featured-section {
-  background-color: rgb(255, 136, 0);
+  background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 136, 0), rgb(255, 187, 0));
   width: 100%;
   height: 655px;
   display: flex;
@@ -79,4 +79,64 @@ p {
   width: 47px;
   background-color: gray;
   cursor: pointer;
+}
+
+.dragon-ball-movies-container {
+  margin: 0 40px;
+}
+
+.dragon-ball-movies-heading-div {
+  margin-top: 45px;
+  font-family: Lato;
+}
+
+.dragon-ball-movies-main-heading {
+  margin-bottom: 10px;
+}
+
+.blue-divider {
+  height: 4px;
+  background-image: linear-gradient(to right, rgb(0, 170, 192), rgb(0, 78, 88));
+  margin: 15px 0;
+}
+
+.dragon-ball-episode-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.thumbnail-container {
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.anime-genre {
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(160, 160, 160);
+  margin: 8px 0;
+}
+
+.anime-name {
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.sub-dub {
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+}
+
+.episode-container-bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-icon {
+  height: 14px;
+  margin-top: 3px;
 }
