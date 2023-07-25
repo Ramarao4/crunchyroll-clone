@@ -54,6 +54,7 @@
   display: flex;
   align-items: center;
   column-gap: 3px;
+  margin-bottom: 8px;
 }
 
 .calendar-icon {
@@ -74,8 +75,39 @@
   margin-bottom: 8px;
 }
 
-.date-of-release {
-  margin-bottom: 8px;
+.anime-section-container .overlay-anime-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.reviews-div {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  color: rgb(160, 160, 160);
+  column-gap: 4px;
+}
+
+.ratings {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.star-icon {
+  height: 14px;
+}
+
+.episode-count-div {
+  color: rgb(160, 160, 160);
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.season-count {
+  margin-bottom: 2px;
 }
 
 .episode-description-div {
@@ -106,7 +138,24 @@
   left: 10px;
 }
 
-.play-icon {
+.overlay-bottom-row {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.episode-overlay .play-icon {
   margin-top: 2px;
-  height: 22px;
+  height: 24px;
+}
+
+.episode-overlay .bookmark-icon {
+  height: 21px;
+}
+
+.episode-overlay .plus-icon {
+  height: 26px;
 }
